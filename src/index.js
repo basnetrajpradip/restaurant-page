@@ -6,7 +6,6 @@ import "./style.css";
 const content = document.querySelector(".content");
 
 content.appendChild(createHome());
-
 const menu = document.querySelector(".menu");
 const home = document.querySelector(".home");
 const contacts = document.querySelector(".contacts");

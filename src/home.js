@@ -51,7 +51,6 @@ export default function createHome() {
   leftContent.appendChild(homeHero);
   leftContent.appendChild(heroInfo);
   leftContent.appendChild(homeButtons);
-
   rightContent.appendChild(myRestImage);
 
   homeContent.appendChild(leftContent);
