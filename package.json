@@ -5,7 +5,8 @@
   "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy-page": "if git ls-remote --exit-code --heads origin gh-pages; then git push origin :gh-pages; fi && git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
