@@ -47,3 +47,5 @@ function renderContacts(event) {
 menu.addEventListener("click", renderMenu);
 home.addEventListener("click", renderHome);
 contacts.addEventListener("click", renderContacts);
+contactBtn.addEventListener("click", renderContacts);
+menuBtn.addEventListener("click", renderMenu);
